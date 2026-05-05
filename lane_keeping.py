@@ -98,7 +98,7 @@ def neutral():
 #              frame-to-frame noise in the centroid position into rapid servo twitching.
 #              Leave at 0 unless you have a very stable, low-noise detection signal.
 Kp_steer       = 0.020
-Kd_steer       = 0.0
+Kd_steer       = 0.004
 prev_steer_error = 0
 STEER_TRIM     = 0.0   # add a small offset (e.g. 0.05) if the car drifts left or right on a straight
 
